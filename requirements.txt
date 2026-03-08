@@ -1,0 +1,8 @@
+asyncio
+fastapi
+sqlalchemy
+testfixtures
+requests
+httpx
+uvicorn
+pytest
