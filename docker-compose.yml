@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  network-scanner:
+    image: your-docker-image
+    ports:
+      - '8080:8080'
+    environment:
+      - ENV_VAR_NAME=value
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
